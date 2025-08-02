@@ -1,0 +1,81 @@
+/* Custom Navbar Styles */
+.custom-navbar {
+    background-color: #343a40; /* Dark background color for navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visual appeal */
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effects for navbar links */
+  .custom-navbar .nav-link,
+  .custom-navbar .navbar-toggler-icon {
+    color: #fff;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Change color on hover */
+  .custom-navbar .nav-link:hover,
+  .custom-navbar .navbar-toggler-icon:hover {
+    color: #ffd700; /* Gold color on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+  }
+  
+  /* Navbar on dark theme */
+  .dark-theme .custom-navbar {
+    background-color: #343a40; /* Dark background for dark theme */
+  }
+  
+  .dark-theme .custom-navbar .nav-link,
+  .dark-theme .custom-navbar .navbar-toggler-icon {
+    color: #fff;
+  }
+  
+  .dark-theme .custom-navbar .nav-link:hover,
+  .dark-theme .custom-navbar .navbar-toggler-icon:hover {
+    color: #ffd700;
+    transform: scale(1.05);
+  }
+  
+  /* Hover effect for theme button */
+  .theme-btn:hover {
+    background-color: #f8f9fa;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  /* Cart icon hover effect */
+  .cart .bi-cart:hover {
+    color: #ffd700; /* Gold color on hover */
+    cursor: pointer;
+  }
+  
+  /* Search suggestions */
+  .search-results-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    z-index: 999;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .search-result-link {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+  }
+  
+  .search-result-link:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* No results message */
+  .no-results-message {
+    color: red;
+    padding: 10px;
+    text-align: center;
+  }
+  
